@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark px-2">
+  <a class="navbar-brand" href="#">Employee Management Tool</a>
+  <button
+    class="navbar-toggler d-lg-none"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#collapsibleNavId"
+    aria-controls="collapsibleNavId"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  ></button>
+  <div class="collapse navbar-collapse" id="collapsibleNavId">
+    <ul class="navbar-nav me-auto mt-lg-0">
+      <li class="nav-item">
+        <a
+          routerLink=""
+          routerLinkActive="active"
+          class="nav-link"
+          aria-current="page"
+          >Employee List
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
+          routerLink="employee"
+          routerLinkActive="active"
+          class="nav-link"
+          aria-current="page"
+          >Create Employee
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div id="main">
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+<footer class="footer">
+  <div>All Rights Reserved 2023 @ScaleDataVerse</div>
+</footer>
